@@ -1,9 +1,45 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: qjackctl
+Upstream-Contact: Rui Nuno Capela <rncbc@rncbc.org>
+Source: https://sourceforge.net/projects/qjackctl/files/
 
 Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
+Copyright:
+ 2003-2025 Rui Nuno Capela <rncbc@rncbc.org>
+License: GPL-2+
+
+Files:
+ src/appdata/org.rncbc.qjackctl.metainfo.xml
+Copyright:
+ 2003-2025 Rui Nuno Capela <rncbc@rncbc.org>
+ 2015 Olivier Humbert <trebmuh@tuxfamily.org>
+License: FSFAP
+
+Files:
+ src/qjackctlInterfaceComboBox.cpp
+ src/qjackctlInterfaceComboBox.h
+Copyright:
+ 2003-2021 Rui Nuno Capela <rncbc@rncbc.org>
+ 2015, Kjetil Matheussen
+ 2013, Arnout Engelen
+License: GPL-2+
+
+Files: debian/*
+Copyright:
+ 2009 Gürkan Sengün <gurkan@phys.ethz.ch>
+ 2009 Free Ekanayaka <freee@debian.org>
+ 2010-2013 Adrian Knoth <adi@drcomp.erfurt.thur.de>
+ 2010-2014 Alessio Treglia <alessio@debian.org>
+ 2014-2017 Jaromír Mikeš <mira.mikes@seznam.cz>
+ 2020-2025 Dennis Braun <snd@debian.org>
+License: GPL-2+
+
+License: FSFAP
+ Copying and distribution of this file, with or without modification,
+ are permitted in any medium without royalty provided the copyright
+ notice and this notice are preserved. This file is offered as-is,
+ without any warranty.
+
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -16,7 +52,7 @@ License: GPL-2+
  GNU General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
  .
  On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
