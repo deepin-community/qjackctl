@@ -1,0 +1,2 @@
+# qjackctl has no fortify function so far
+hardening-no-fortify-functions [usr/bin/qjackctl]
